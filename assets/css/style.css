@@ -1,0 +1,70 @@
+body {
+    background: black;
+    background-image: url("/Users/randall/Desktop/BOOTCAMP-HOMEWORK/unit-4-game/assets/images/snow7d_uf_je.jpg");
+    background-size: 100%;
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+}
+
+div {
+    opacity: .9;
+    /* gradient */
+    background: -webkit-linear-gradient(to right, #ddd5f0, #796ebb);
+    background:    -moz-linear-gradient(to right, #ddd5f0, #796ebb);
+    background:         linear-gradient(to right, #ddd5f0, #796ebb);
+    /* rounds corners */
+    border-radius: 105px;
+    border: 2px solid rgb(83, 129, 18);
+    padding: 25px; 
+    /* space between divs */
+    margin: 20px;
+    /* width */
+    width: 85%;
+}
+
+h1 {
+    background: -webkit-linear-gradient(to right, #ddd5f0, #796ebb);
+    background:    -moz-linear-gradient(to right, #ddd5f0, #796ebb);
+    background:         linear-gradient(to right, #ddd5f0, #796ebb);
+    height: 45px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px  rgb(83, 129, 18);
+    text-align: center;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#sub-header {
+    text-align: center;
+    text-shadow: 2px 2px 2px  rgb(83, 129, 18);
+    font-size: 25px;
+    width: 300px;
+    position: inherit;
+    float: left;
+    margin-left: 60px;
+}
+
+#randomNumber,
+#score {
+    width: 75%;
+    position: relative;
+}
+
+#crystals {
+    clear: both;
+    height: auto;
+    text-align: center;
+    text-shadow: 2px 2px 2px  rgb(83, 129, 18);
+    font-size: 25px;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    padding-left: 20px;
+}
