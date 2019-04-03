@@ -2,7 +2,7 @@ body {
     background: black;
     background-image: url("/Users/randall/Desktop/BOOTCAMP-HOMEWORK/unit-4-game/assets/images/snow7d_uf_je.jpg");
     background-size: 100%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Clicker Script', cursive;
     line-height: 150%;
 }
 
@@ -26,27 +26,35 @@ h1 {
     background: -webkit-linear-gradient(to right, #ddd5f0, #796ebb);
     background:    -moz-linear-gradient(to right, #ddd5f0, #796ebb);
     background:         linear-gradient(to right, #ddd5f0, #796ebb);
-    height: 45px;
-    padding: 10px;
+    height: 55px;
+    border-radius: 10px;
+    padding-top: 10px;
     margin-top: -10px;
     margin-bottom: 50px;
+    border-bottom: rgb(83, 129, 18);
     text-shadow: 2px 2px 2px  rgb(83, 129, 18);
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+}
+
+#instructions {
+    padding: 45px;
 }
 
 ul {
     list-style-type: square;
+    font-family: 'Playfair Display', serif;
 }
 
 #sub-header {
     text-align: center;
     text-shadow: 2px 2px 2px  rgb(83, 129, 18);
-    font-size: 25px;
+    font-size: 35px;
     width: 300px;
     position: inherit;
     float: left;
     margin-left: 60px;
+    padding-left: 10px;
 }
 
 #randomNumber,
@@ -57,10 +65,10 @@ ul {
 
 #crystals {
     clear: both;
+    font-size: 35px;
     height: auto;
     text-align: center;
     text-shadow: 2px 2px 2px  rgb(83, 129, 18);
-    font-size: 25px;
 }
 
 img {
