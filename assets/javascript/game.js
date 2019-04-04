@@ -48,57 +48,53 @@ $(document).ready(function(){
         match += crystalNum1;
         $("#score").text(match);
         // if else statement to win lose
-            if (match === randomNumDisplay){
-                pointsUp();
-                
+        if (match === randomNumDisplay){
+            pointsUp();
+            wins++;             
             } else if 
                 (match > randomNumDisplay){
                 alert("You Lose.");
                 alert("Your high score was: " + wins + "!");
                 lose();  
-                resetGame();
             }
     })
     $("#crystal-2").click(function(){
         match += crystalNum2;
         $("#score").text(match);
-        if (match === randomNumDisplay){
-            pointsUp();
-            
-        } else if 
-            (match > randomNumDisplay){
-            alert("You Lose.");
-            alert("Your high score was: " + wins + "!");
-            lose();
-            resetGame();
-        }
+            if (match === randomNumDisplay){
+                pointsUp();
+                wins++;          
+            } else if 
+                (match > randomNumDisplay){
+                alert("You Lose.");
+                alert("Your high score was: " + wins + "!");
+                lose();
+            }
     })
     $("#crystal-3").click(function(){
         match += crystalNum3;
         $("#score").text(match);
-        if (match === randomNumDisplay){
-            pointsUp();
-            
-        } else if 
-            (match > randomNumDisplay){
-            alert("You Lose.");
-            alert("Your high score was: " + wins + "!");
-            lose();
-            resetGame();
-        }
+            if (match === randomNumDisplay){
+                pointsUp();
+                wins++;  
+            } else if 
+                (match > randomNumDisplay){
+                alert("You Lose.");
+                alert("Your high score was: " + wins + "!");
+                lose();
+            }
     })
     $("#crystal-4").click(function(){
         match += crystalNum4;
         $("#score").text(match);
-        if (match === randomNumDisplay){
-            pointsUp();
-            
-        } else if 
-            (match > randomNumDisplay){
-            alert("You Lose.")
-            alert("Your high score was: " + wins + "!");
-            lose();
-            resetGame();
+            if (match === randomNumDisplay){
+                pointsUp();
+                wins++;          
+            } else if 
+                (match > randomNumDisplay){
+                alert("You Lose.")
+                alert("Your high score was: " + wins + "!");
+                lose();
         }
     })
 })
