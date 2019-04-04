@@ -50,7 +50,7 @@ ul {
     text-align: center;
     text-shadow: 2px 2px 2px  rgb(83, 129, 18);
     font-size: 35px;
-    width: 300px;
+    width: 150px;
     position: inherit;
     float: left;
     margin-left: 60px;
@@ -58,8 +58,9 @@ ul {
 }
 
 #randomNumber,
-#score {
-    width: 75%;
+#score,
+#points {
+    width: 48%;
     position: relative;
 }
 
